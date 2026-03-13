@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+    color: white;
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    background: orange;
+    color: black;
+    padding: 10px;
+    margin: 5px auto;
+    width: 250px;
+    border-radius: 8px;
+}
+
+.logo{
+    width: 600px;
+}
+
+.descripcion{
+    margin:50px;
+}
+
+.btn {
+    position: fixed;      
+    bottom: 20px;          
+    left: 20px;          
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold; 
+    background: orange;
+    color: #000;
+    font-size: 16px;
+    z-index: 1000;
+}
